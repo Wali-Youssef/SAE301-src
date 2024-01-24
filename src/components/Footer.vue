@@ -1,5 +1,11 @@
 <template>
-  <footer style="background: #EFEFEF; width: 1280px; height: 437px;">
+
+  <BR>
+  <br>
+  <br>
+  <br>
+</BR>
+  <footer style="background: #FFFBF5; width: 1280px; height: 437px;">
     <div style="width: 1066.667px; height: 2px; background: #685F5F; margin: 0 auto;"></div>
 
     <div style="display: flex; justify-content: space-between; margin: 20px auto 0; width: 1066.667px;">
@@ -27,10 +33,10 @@
         <h2>Nous suivre sur les réseaux</h2>
         <div class="social-icons">
           <!-- Placeholder for your social icons, replace with your actual icons -->
-          <img src="#" alt="Social Icon 1" style="width: 28px; height: 28px; margin-right: 26px;">
-          <img src="#" alt="Social Icon 2" style="width: 28px; height: 28px; margin-right: 26px;">
-          <img src="#" alt="Social Icon 3" style="width: 28px; height: 28px; margin-right: 26px;">
-          <img src="#" alt="Social Icon 4" style="width: 28px; height: 28px;">
+          <img src="../assets/instagram.png" alt="Social Icon 1" style="width: 28px; height: 28px; margin-right: 26px;">
+          <img src="../assets/facebook.png" alt="2" style="width: 28px; height: 28px; margin-right: 26px;">
+          <img src="../assets/twitter.png" alt="3" style="width: 28px; height: 28px; margin-right: 26px;">
+          <img src="../assets/galerie.png" alt="Social Icon 4" style="width: 28px; height: 28px;">
         </div>
       </div>
     </div>

@@ -13,10 +13,24 @@ const routes = [
     name: 'about',
     component: () => import('../views/AboutView.vue')
   },
+  
+
+   {
+    path: '/connexion',  // This is the new route path
+    name: 'connexion',   // A unique name for the route
+    component: () => import('../views/connexionView.vue')  // Lazy-load the AccueilView.vue component
+  },
+
   {
-    path: '/accueil',  // This is the new route path
-    name: 'accueil',   // A unique name for the route
-    component: () => import('../views/AccueilView.vue')  // Lazy-load the AccueilView.vue component
+    path: '/personnalisation',  // This is the new route path
+    name: 'personnalisation',   // A unique name for the route
+    component: () => import('../views/personnalisationView.vue')  // Lazy-load the AccueilView.vue component
+  },
+
+  {
+    path: '/map',  // This is the new route path
+    name: 'map',   // A unique name for the route
+    component: () => import('../views/mapView.vue')  // Lazy-load the AccueilView.vue component
   }
 ]
 

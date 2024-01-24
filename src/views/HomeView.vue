@@ -3,8 +3,12 @@
     <!-- Votre container existant -->
     <div class="image-container">
       <img src="@/assets/PAGE1.svg" alt="Description de l'image" />
-      <button class="overlay-button">PERSONNALISER</button>
+      <RouterLink to="/Personnalisation">
+        <button class="overlay-button">PERSONNALISER</button>
+      </RouterLink>
+
     </div>
+    <br>
 
     <!-- Conteneur avec la couleur spécifiée -->
     <div class="color">
@@ -16,6 +20,9 @@
           <h2>vous pouvez modifier </h2>
         </div>
       </div>
+      <br>
+      <br>
+      <br>
 
       <!-- Les trois images que vous avez demandé -->
       <div class="lunette-wrapper">
@@ -36,6 +43,30 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="testimonial-section">
+    <h2>Chez TaVue</h2>
+    <p>
+      nous accordons une grande importance à l'opinion de nos clients.
+      Chaque montre personnalisée est une pièce unique, conçue avec passion et dévouement.
+    </p>
+    <div class="testimonial">
+      <blockquote>
+        "J'ai commandé ma première montre personnalisée ici et je suis absolument conquis. La qualité est exceptionnelle
+        et elle reflète parfaitement ma personnalité." - Alex L.
+      </blockquote>
+    </div>
+    <div class="testimonial">
+      <blockquote>
+        "Un service client réactif, une conception sur mesure et une livraison rapide. Je recommande fortement à quiconque
+        souhaite une montre unique." - Clara M.
+      </blockquote>
+    </div>
+    <p>
+      Si vous avez déjà fait l'expérience de nos montres personnalisées, n'hésitez pas à partager votre avis. Votre
+      feedback nous aide à nous améliorer et à offrir à chacun une expérience inoubliable.
+    </p>
   </div>
 </template>
 
@@ -98,7 +129,7 @@ export default {
 
 .flex-container>* {
   margin: 0 10px;
-  margin-top: 60px;
+  margin-top: 90px;
   margin-left: 40px;
 }
 
@@ -115,6 +146,7 @@ export default {
   width: 33.33%;
   vertical-align: top;
 }
+
 
 .lunette-container img {
   max-width: 100%;
@@ -134,5 +166,33 @@ export default {
 .lunette-container p {
   margin-top: 10px;
   background-color: #FFFBF5;
+}
+
+.testimonial-section {
+  font-family: 'VotrePolicedeCaractère', sans-serif;
+  padding: 20px;
+  background-color: #11485F;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+  }
+
+  .testimonial {
+    margin-bottom: 20px;
+
+    .blockquote {
+      font-size: 20px;
+      color: #280b0b;
+      border-left: 4px solid #000;
+      padding-left: 10px;
+    }
+  }
 }
 </style>
