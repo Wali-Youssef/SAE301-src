@@ -16,7 +16,7 @@
       <div class="couleurblanc">
         <div class="flex-container">
           <h2> Grace a </h2>
-          <img src="@/assets/Tavue.svg" alt="Description de l'image" />
+          <img src="@/assets/TaVue.svg" alt="Description de l'image" />
           <h2>vous pouvez modifier </h2>
         </div>
       </div>
