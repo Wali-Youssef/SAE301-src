@@ -4,7 +4,7 @@ import PocketBase from 'pocketbase';
 /*var pocketbase_ip = "";
 if (import.meta.env.MODE === "production")
     pocketbase_ip = "http://tavue.youssefwali.fr";
-else pocketbase_ip = "http://127.0.0.1:8090";*/b
+else pocketbase_ip = "http://127.0.0.1:8090";*/
 const pb = new PocketBase(import.meta.env.VITE_POCKETBASE_URL);
 
 const cadre_couleur = ref('#B2B2B2');
